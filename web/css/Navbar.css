@@ -1,0 +1,8 @@
+.navbar{
+    position: fixed !important;
+    width: 100%;
+}
+
+#ElementList{
+    padding-top: 60px;
+}

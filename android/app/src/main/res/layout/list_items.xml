@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" >
+
+        <TextView
+        android:id="@+id/numLikes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listItemText"
+        android:text="" />
+
+        <TextView
+        android:id="@+id/listItemText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+        <Button
+        android:id="@+id/upVote"
+        android:text="Like"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/numLikes"
+        android:textSize="8dp"/>
+
+        <Button
+        android:id="@+id/downVote"
+        android:text="Dislike"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@+id/upVote"
+        android:layout_below="@+id/numLikes"
+        android:textSize="8dp"/>
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
